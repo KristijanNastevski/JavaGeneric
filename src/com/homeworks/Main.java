@@ -25,9 +25,12 @@ public class Main {
         LinkedList<String> test2 = new LinkedList<>();
         test2.add("Level");
 
-        boolean palindromeCheck = isPalindrome(test);
-        System.out.println(palindromeCheck);
+        LinkedList<Character> test3 = new LinkedList<>();
+        test3.add('A'); test3.add('B'); test3.add('C'); test3.add('B'); test3.add('B');
+
+        System.out.println(isPalindrome(test));
         System.out.println(isPalindrome(test2));
+        System.out.println(isPalindrome(test3));
 
     }
 }
