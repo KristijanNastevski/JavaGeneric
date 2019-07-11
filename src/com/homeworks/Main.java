@@ -23,7 +23,7 @@ public class Main {
         test.add(1); test.add(2); test.add(3); test.add(2); test.add(1);
 
         LinkedList<String> test2 = new LinkedList<>();
-        test2.add("Level");
+        test2.add("Level"); test2.add("test"); test2.add("word"); test2.add("test"); test2.add("Level");
 
         LinkedList<Character> test3 = new LinkedList<>();
         test3.add('A'); test3.add('B'); test3.add('C'); test3.add('B'); test3.add('B');
